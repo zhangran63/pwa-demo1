@@ -10,7 +10,7 @@
       "type": "image/png"
     }
   ],
-  "name": "Awesome fox pictures",
-  "short_name": "Foxes",
-  "start_url": "/pwa-demo1/a2hs/index.html"
+  "name": "aquiver fox pictures",
+  "short_name": "aquiver",
+  "start_url": "/pwa-demo1/aquiver/index.html"
 }
