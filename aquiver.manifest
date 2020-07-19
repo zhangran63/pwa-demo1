@@ -1,0 +1,15 @@
+{
+  "background_color": "#FF3D6A",
+  "description": "Save more Enjoy more",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Aquire", 
+  "short_name": "Aquire",
+  "start_url": "/demo1/index.html"
+}
