@@ -5,8 +5,8 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "icon/fox-icon.png",
-      "sizes": "192x192",
+      "src": "icon/aquiver-icon.png",
+      "sizes": "186x186",
       "type": "image/png"
     }
   ],
