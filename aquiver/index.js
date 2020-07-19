@@ -15,7 +15,7 @@ setInterval(function() {
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('/pwa-demo1/sw.js')
+           .register('/pwa-demo1/aquiver/sw.js')
            .then(function() { console.log('Service Worker Registered'); });
 }
 // Code to handle install prompt on desktop

@@ -4,14 +4,14 @@ self.addEventListener('install', function(e) {
   e.waitUntil( // service work 会等到waitUntil里面的代码执行完之后才可以安装
     caches.open(CACHE_NAME).then(function(cache) { // caches是一种特殊的cacheStorage对象，他能在service worker指定的范围内提供数据缓存。在此中，web storage失效
       return cache.addAll([
-        '/pwa-demo1/',
-        '/pwa-demo1/index.html',
-        '/pwa-demo1/index.js',
-        '/pwa-demo1/style.css',
-        '/pwa-demo1/images/1.jpg',
-        '/pwa-demo1/images/2.jpg',
-        '/pwa-demo1/images/3.jpg',
-        '/pwa-demo1/images/4.jpg'
+        '/pwa-demo1/aquiver/',
+        '/pwa-demo1/aquiver/index.html',
+        '/pwa-demo1/aquiver/index.js',
+        '/pwa-demo1/aquiver/style.css',
+        '/pwa-demo1/aquiver/images/1.jpg',
+        '/pwa-demo1/aquiver/images/2.jpg',
+        '/pwa-demo1/aquiver/images/3.jpg',
+        '/pwa-demo1/aquiver/images/4.jpg'
       ]);
     })
   );
